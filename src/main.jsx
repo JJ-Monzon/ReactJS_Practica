@@ -3,8 +3,13 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+import { ConfigProvider } from 'antd';
+import esEs from 'antd/locale/es_ES.js';
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <ConfigProvider locale={esEs}>
+      <App />
+    </ConfigProvider>
   </StrictMode>,
 )
