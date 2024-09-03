@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Typography } from 'antd';
 
 const { Title }= Typography;
