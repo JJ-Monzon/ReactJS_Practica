@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       
-      <Usuario nombreUsuario={"Juan"} apellidoUsuario={"Monzon"} level={1}/>
+      <Usuario nombreUsuario={"Juanjo"} apellidoUsuario={"Monzon"} level={1}/>
       <Prueba />
       <Calendario />
       <Medicion />
